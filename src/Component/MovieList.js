@@ -40,7 +40,7 @@ const MovieList = () => {
             <ul className='movies-list'>
                 {filteredMovies.map((movie) => (
                     <li className='list-item' key={movie.id}>
-                        {/* <h2 className='id'>Id: {movie.id}</h2> */}
+                        <h2 className='id'>Id: {movie.id}</h2>
                         <h2 className='movie-name'> {movie.movie}</h2>
                         <p className='movie-rating'>Rating: {movie.rating}</p>
                         <img src={movie.image} alt={movie.movie} className='movie-poster' />
